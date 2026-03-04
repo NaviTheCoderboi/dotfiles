@@ -1,0 +1,77 @@
+{
+	// Editor settings
+	"editor.wordWrap": "on",
+	"editor.formatOnSave": true,
+	"editor.mouseWheelZoom": true,
+	"editor.linkedEditing": true,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"editor.tabSize": 4,
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports.biome": "always"
+	},
+	// Terminal settings
+	"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
+	"terminal.integrated.cursorBlinking": true,
+	// GitHub Copilot
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"chat.viewSessions.orientation": "stacked",
+	// Extensions
+	"extensions.autoUpdate": false,
+	// files settings
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	// workbench settings
+	"update.mode": "manual",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "One Dark Pro Night Flat",
+	// c/c++ settings
+	"[cpp]": {
+		"editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+	},
+	"cmake.generator": "Ninja",
+	"terminal.integrated.mouseWheelZoom": true,
+	"terminal.integrated.fontSize": 15,
+	"C_Cpp.clang_format_path": "/usr/bin/clang-format",
+	"C_Cpp.codeAnalysis.clangTidy.path": "/usr/bin/clang-tidy",
+	"C_Cpp.intelliSenseEngine": "disabled",
+	// python settings
+	"python.analysis.aiCodeActions": {
+		"convertLambdaToNamedFunction": true,
+		"generateDocstring": true,
+		"implementAbstractClasses": true,
+		"generateSymbol": true,
+		"convertFormatString": true
+	},
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff"
+	},
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.inlayHints.callArgumentNames": "partial",
+	"python.analysis.inlayHints.variableTypes": true,
+	"python.analysis.typeCheckingMode": "standard",
+	"python.analysis.typeEvaluation.deprecateTypingAliases": true,
+	// json settings
+	"json.schemaDownload.trustedDomains": {
+		"https://schemastore.azurewebsites.net/": true,
+		"https://raw.githubusercontent.com/": true,
+		"https://www.schemastore.org/": true,
+		"https://json.schemastore.org/": true,
+		"https://json-schema.org/": true,
+		"https://biomejs.dev": true
+	},
+	// js/ts settings
+	"svelte.enable-ts-plugin": true,
+	"[astro]": {
+		"editor.defaultFormatter": "astro-build.astro-vscode"
+	},
+	// yaml settings
+	"redhat.telemetry.enabled": false
+}

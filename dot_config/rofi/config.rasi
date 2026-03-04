@@ -1,0 +1,37 @@
+configuration {
+    icon-theme: "MacTahoe-dark";
+    modi: "drun,run,filebrowser,window";
+    show-icons: true;
+	drun-display-format: "{name}";
+
+    display-drun: "";
+    display-run: "";
+    display-filebrowser: "";
+    display-window: "";
+
+    hover-select: false;
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+
+    case-sensitive: false;
+    cycle: true;
+    filter: "";
+    scroll-method: 0;
+    matching: "fuzzy";
+    sort: true;
+    
+    parse-hosts: false;
+    parse-known-hosts: false;
+
+    dpi: 0;
+
+    font: "JetBrainsMono Nerd Font, Noto Sans 11";
+}
+
+window {
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+@import "theme.rasi"

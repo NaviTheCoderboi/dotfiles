@@ -1,0 +1,6 @@
+for f in $HOME/.config/zsh/*; do
+    if [ ! -d $f ]; then
+        c=`echo $f | sed -e "s=.config/zsh=.config/zsh/custom="`
+        [[ -f $c ]] && source $c || source $f
+    fi
+done

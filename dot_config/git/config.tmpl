@@ -1,0 +1,12 @@
+[user]
+name = {{ .git_name }}
+email = {{ .git_email }}
+
+[init]
+defaultBranch = main
+
+[color]
+ui = auto
+
+[core]
+excludesfile = {{ .chezmoi.homeDir }}/.config/git/ignore
